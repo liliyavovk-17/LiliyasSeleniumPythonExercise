@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26b72132-fba7-4c37-92f4-9fe434a2d68f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/test_scripts/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate/test_scripts/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_scripts/home_page_tests/landing_on_pricing_page_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/home_page_tests/landing_on_pricing_page_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_scripts/pricing_page_tests/2_serving_verification_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_scripts/sign_up_page_tests/verify_apple_id_button_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
@@ -174,7 +155,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
