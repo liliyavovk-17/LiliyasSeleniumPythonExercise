@@ -15,5 +15,5 @@ class TestNavBarPricingLink(BasePage):
         home_page.click_pricing_in_header()
         home_page.assert_landed_on_correct_page()
 
-    def tearDown(self):
+    def tear_down(self):
     self.driver.close()
