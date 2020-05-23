@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blue_apron_examples/YourLogoAutomated" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blue_apron_examples/page-object-python-selenium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blue_apron_examples/selenium-python-nose-boilerplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blue_apron_examples/selenium-python-page-object-model" vcs="Git" />
   </component>
 </project>

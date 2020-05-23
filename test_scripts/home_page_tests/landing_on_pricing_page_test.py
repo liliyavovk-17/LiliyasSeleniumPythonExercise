@@ -9,12 +9,11 @@ class TestNavBarPricingLink(BasePage):
         self.driver = webdriver.Chrome()
         self.driver.get("http://www.blueapron.com")
 
-    def test_pricing_link(driver):
-
-        home_page = NavBarHomePage(driver)
-        # .await_traits()
+    def test_pricing_link(self):
+        home_page = NavBarHomePage(self.driver)
+        home_page.await_traits()
         home_page.click_pricing_in_header()
         home_page.assert_landed_on_correct_page()
 
-    # def tearDown(self):
-    # self.driver.close()
+    def tearDown(self):
+    self.driver.close()

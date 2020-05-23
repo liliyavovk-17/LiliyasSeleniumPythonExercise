@@ -16,5 +16,6 @@ class NavBarHomePage(BasePage):
         self.driver.find_element(*HomePageLocators.PRICING_IN_HEADER).click()
 
     def assert_landed_on_correct_page(self):
-        String_URL = driver.getCurrentUrl();
+        driver = self.driver
+        driver.getCurrentUrl();
         Assert.assertEquals(URL, "https://www.blueapron.com/pricing")
