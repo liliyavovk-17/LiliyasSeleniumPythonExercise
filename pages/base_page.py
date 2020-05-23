@@ -1,6 +1,7 @@
-
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+
 
 
 class BasePage(object):
@@ -9,15 +10,17 @@ class BasePage(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def await_traits(self):
-        '''
-        Checks the all the elements in self.traits array exist in the DOM.
-        Used to ensure we are on the desired page with the necessary elements loaded.
-        Returns self.
-        '''
-        for locator in self.traits:
-            self.driver.find_element(*locator)
-        return self
+
+
+    # def await_traits(self):
+    #     '''
+    #     Checks the all the elements in self.traits array exist in the DOM.
+    #     Used to ensure we are on the desired page with the necessary elements loaded.
+    #     Returns self.
+    #     '''
+    #     for locator in self.traits:
+    #         self.driver.find_element(*locator)
+    #     return self
 
 
 # class BasePageElement(object):

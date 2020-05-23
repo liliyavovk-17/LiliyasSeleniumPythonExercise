@@ -24,8 +24,8 @@ class HomePageLocators(object):
 #     # "//div[@class='pom-Button--mouseover'][contains(text(),'Select')]")
 
 
-# class CheckoutPageLocators(object)
-# 	"""A class for checkout page locators.""":
+# class CheckoutPageLocators(object):
+# 	"""A class for checkout page locators."""
 #    	APPLE_SIGN_UP_BUTTON = (By.ID, "appleid-signin")
 # 	CONTINUE_BUTTON = (By.XPATH, "//button[@class=pom-Button pom-Button--blue pom-Button--filled pom-Button--full]"
 # 	# "//div[@class='pom-Button--mouseover'][contains(text(),'Continue')]")

@@ -9,7 +9,7 @@ class NavBarHomePage(BasePage):
 
     # pricing_in_header = NavBarHomePage()
     def navigate_to_home_page(self):
-        self.driver = webdriver.Chrome()
+        self.driver = driver
         self.driver.get("http://www.blueapron.com")
 
     def click_pricing_in_header(self):
