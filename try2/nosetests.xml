@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.NameError" message="name 'driver' is not defined"><![CDATA[Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/Library/Python/2.7/site-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/Library/Python/2.7/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/Library/Python/2.7/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/Users/liliya/Blue Apron/try2/test_scripts/landing_on_pricing_page_test.py", line 2, in <module>
+    from pages.home_page import NavBarHomePage
+  File "/Users/liliya/Blue Apron/try2/pages/home_page.py", line 3, in <module>
+    from locators import HomePageLocators
+  File "/Users/liliya/Blue Apron/try2/locators.py", line 10, in <module>
+    class HomePageLocators(object):
+  File "/Users/liliya/Blue Apron/try2/locators.py", line 12, in HomePageLocators
+    PRICING_IN_HEADER = driver.find_elements(By.XPATH, "//a[@class='nav_pricing']")
+NameError: name 'driver' is not defined
+]]></error></testcase></testsuite>
